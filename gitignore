@@ -1,0 +1,36 @@
+# --- Credenciales (NUNCA subir) ---
+.env
+.env.*
+!.env.example
+
+# --- Entorno virtual ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- Ejecutable (PyInstaller) ---
+build/
+dist/
+*.spec
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Otros ---
+*.log
+
+# Fuentes con licencia (Gibson): no se suben al repositorio
+fuentes/
